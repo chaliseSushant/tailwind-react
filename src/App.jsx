@@ -1,5 +1,6 @@
 import BackgroundChange from './BackgroundChange'
 import PasswordGenerator from './PasswordGenerator'
+import CurrencyConverter from './CurrencyConverter'
 
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <>
       {/* <BackgroundChange/> */}
-      <PasswordGenerator/>
+      {/* <PasswordGenerator/> */}
+      <CurrencyConverter/>
     </>
   )
 }
